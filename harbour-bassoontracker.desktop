@@ -13,8 +13,6 @@ Name[de]=harbour-bassoontracker
 
 [X-Sailjail]
 # Replace with your organization as a reverse domain name
-OrganizationName=org.myorg
-# ApplicationName does not have to be identical to Name
+OrganizationName=de.poetaster
 ApplicationName=bassoontracker
-# Add the required permissions here
-Permissions=
+Permissions=Permissions=UserDirs;WebView;Audio;Internet

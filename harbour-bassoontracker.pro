@@ -18,7 +18,18 @@ DISTFILES += qml/harbour-bassoontracker.qml \
     qml/cover/CoverPage.qml \
     qml/pages/FirstPage.qml \
     qml/pages/SecondPage.qml \
-    qml/html/* \
+    qml/html/*.html \
+    qml/html/*.txt \
+    qml/html/*.json \
+    qml/html/script/*.js \
+    qml/html/data/* \
+    qml/html/auth/* \
+    qml/html/hosts/* \
+    qml/html/skin/*.png \
+    qml/html/skin/*.json \
+    qml/html/script/*.js \
+    qml/html/script/wrapper/* \
+    qml/html/script/plugins/* \
     rpm/harbour-bassoontracker.changes.in \
     rpm/harbour-bassoontracker.changes.run.in \
     rpm/harbour-bassoontracker.spec \
