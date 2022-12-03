@@ -22,7 +22,6 @@ DISTFILES += qml/harbour-bassoontracker.qml \
     rpm/harbour-bassoontracker.changes.in \
     rpm/harbour-bassoontracker.changes.run.in \
     rpm/harbour-bassoontracker.spec \
-    rpm/harbour-bassoontracker.yaml \
     translations/*.ts \
     harbour-bassoontracker.desktop
 
