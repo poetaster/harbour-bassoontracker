@@ -1,0 +1,3 @@
+[submodule "qml/html"]
+	path = qml/html
+	url = https://github.com/poetaster/BassoonTracker
