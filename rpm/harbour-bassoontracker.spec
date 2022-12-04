@@ -10,11 +10,11 @@ Name:       harbour-bassoontracker
 
 Summary:    Bassoontracker
 Version:    0.4.0
-Release:    1
+Release:    2
 Group:      Qt/Qt
 License:    MIT
 BuildArch:  noarch
-URL:        http://example.org/
+URL:        https://www.stef.be/bassoontracker/
 Source0:    %{name}-%{version}.tar.bz2
 Requires:   sailfishsilica-qt5 >= 0.10.9
 Requires:   libsailfishapp-launcher
@@ -27,8 +27,20 @@ BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  desktop-file-utils
 
 %description
-Short description of my Sailfish OS Application
+Bassoontracker is an Amiga style mod tracker for making music. https://www.stef.be/bassoontracker/
 
+%if "%{?vendor}" == "chum"
+PackageName: BassoonTracker
+Type: desktop-application
+Categories:
+ - Audio
+PackagerName: Mark Washeim (poetaster)
+Custom:
+ - Repo: https://github.com/poetaster/harbour-bassoontracker
+Icon: https://raw.githubusercontent.com/poetaster/harbour-bassoontracker/main/icons/128x128/harbour-bassoontracker.png
+Screenshots:
+ - https://raw.githubusercontent.com/poetaster/BassoonTracker/1e868d9225727df951191bdd542c69cda243ab89/skin/screenshot.png
+%endif
 
 %prep
 %setup -q -n %{name}-%{version}
