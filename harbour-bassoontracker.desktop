@@ -15,4 +15,4 @@ Name[de]=Bassoontracker
 # Replace with your organization as a reverse domain name
 OrganizationName=de.poetaster
 ApplicationName=bassoontracker
-Permissions=Permissions=UserDirs;WebView;Audio;Internet
+Permissions=UserDirs;WebView;Audio;Internet
