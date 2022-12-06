@@ -16,7 +16,7 @@ Page {
             Component.onCompleted: {
                 WebEngineSettings.setPreference("security.disable_cors_checks", true, WebEngineSettings.BoolPref)
                 WebEngineSettings.setPreference("security.fileuri.strict_origin_policy", false, WebEngineSettings.BoolPref)
-                WebEngineSettings.pixelRatio = 2.7
+                WebEngineSettings.pixelRatio = 2.6
             }
         }
 }

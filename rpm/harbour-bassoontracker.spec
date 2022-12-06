@@ -9,8 +9,8 @@ Name:       harbour-bassoontracker
 # << macros
 
 Summary:    Bassoontracker
-Version:    0.4.0
-Release:    2
+Version:    0.4.1
+Release:    1
 Group:      Qt/Qt
 License:    MIT
 BuildArch:  noarch
